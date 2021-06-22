@@ -537,7 +537,7 @@ a {
 /* Callouts */
 .callout {
   padding: 4rem;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .callout--primary {
@@ -772,6 +772,9 @@ a {
 }
 
 /* Features */
+.csss {
+  width: 50%;
+}
 
 .feature {
   gap: 4rem 2rem;
@@ -787,7 +790,7 @@ a {
 }
 
 .feature__image {
-  width: 100%;
+  width: 70%;
 }
 
 @media screen and (min-width: 768px) {
